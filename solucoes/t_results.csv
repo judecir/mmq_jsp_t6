@@ -1,0 +1,25 @@
+problema;  modelo;  num_jobs;  num_maquina;  fl_inteiro;  best_bound;  funcao_objetivo;  mip_relative_gap; number_of_contraints; number_of_variables; number_of_var_values; nb_interations; nb_linear_nonzeros; status; time; has_hit_limit 
+ID000_M003_J004; manne; 3; 4; True; 29.000000000000004; 29.000000000000004; 0.0; 48; 31; 21; 42; 132; integer optimal solution; 0.0072100162506103516; False;  
+ID000_M003_J004; minla_fav; 3; 4; True; 29.0; 29.0; 0.0; 176; 67; 49; 51; 628; integer optimal solution; 0.0049419403076171875; False;  
+ID000_M003_J004; manne; 3; 4; False; nan; 23.0; nan; 48; 31; 22; 21; 132; optimal; 0.00035309791564941406; False;  
+ID000_M003_J004; minla_fav; 3; 4; False; nan; 24.492644002992275; nan; 176; 67; 50; 55; 628; optimal; 0.0006549358367919922; False;  
+ID000_M003_J005; manne; 3; 5; True; 33.0; 33.0; 0.0; 75; 46; 29; 107; 210; integer optimal solution; 0.009366989135742188; False;  
+ID000_M003_J005; minla_fav; 3; 5; True; 33.0; 33.0; 0.0; 310; 136; 95; 146; 1235; integer optimal solution; 0.010027885437011719; False;  
+ID000_M003_J005; manne; 3; 5; False; nan; 23.0; nan; 75; 46; 33; 32; 210; optimal; 0.00042891502380371094; False;  
+ID000_M003_J005; minla_fav; 3; 5; False; nan; 28.558613184079604; nan; 310; 136; 108; 70; 1235; optimal; 0.0009241104125976562; False;  
+ID000_M015_J015; manne; 15; 15; True; 1209.9999898108024; 1209.999999998; 8.419171596078956e-09; 3375; 1801; 1009; 11263213; 9900; integer optimal, tolerance; 238.12575101852417; False;  
+ID000_M015_J015; minla_fav; 15; 15; True; 1090.9999999999998; 1090.9999999999998; 0.0; 30585; 22276; 15544; 298201; 172770; integer optimal solution; 32.856618881225586; False;  
+ID000_M015_J015; manne; 15; 15; False; nan; 963.0; nan; 3375; 1801; 1033; 1032; 9900; optimal; 0.018200159072875977; False;  
+ID000_M015_J015; minla_fav; 15; 15; False; nan; 982.4701986754966; nan; 30585; 22276; 15874; 3555; 172770; optimal; 0.4219369888305664; False;  
+ID001_M015_J015; manne; 15; 15; True; 1176.9666666666662; 1177.0; 2.8320589068610815e-05; 3375; 1801; 995; 69027037; 9900; integer optimal, tolerance; 973.6306879520416; False;  
+ID001_M015_J015; minla_fav; 15; 15; True; 1064.0; 1064.0; 0.0; 30585; 22276; 16018; 2094081; 172770; integer optimal solution; 142.92440104484558; False;  
+ID001_M015_J015; manne; 15; 15; False; nan; 942.0; nan; 3375; 1801; 1024; 1023; 9900; optimal; 0.018625974655151367; False;  
+ID001_M015_J015; minla_fav; 15; 15; False; nan; 945.6247810339935; nan; 30585; 22276; 15823; 3137; 172770; optimal; 0.43692708015441895; False;  
+ID002_M015_J015; manne; 15; 15; True; 1196.9024183283839; 1196.999999992; 8.152185765819115e-05; 3375; 1801; 1008; 179317681; 9900; integer optimal, tolerance; 2584.002046108246; False;  
+ID002_M015_J015; minla_fav; 15; 15; True; 1072.0; 1072.0; 0.0; 30585; 22276; 15685; 996350; 172770; integer optimal solution; 126.32010102272034; False;  
+ID002_M015_J015; manne; 15; 15; False; nan; 921.0; nan; 3375; 1801; 1146; 1145; 9900; optimal; 0.02130603790283203; False;  
+ID002_M015_J015; minla_fav; 15; 15; False; nan; 947.8456375838925; nan; 30585; 22276; 15443; 2338; 172770; optimal; 0.2516961097717285; False;  
+ID003_M015_J015; manne; 15; 15; True; 1076.1544644064963; 1176.0; 0.08490266632099928; 3375; 1801; 1007; 140520042; 9900; time limit exceeded; 3600.017820119858; True;  
+ID003_M015_J015; minla_fav; 15; 15; True; 1057.0; 1057.0; 0.0; 30585; 22276; 15475; 992121; 172770; integer optimal solution; 179.5057110786438; False;  
+ID003_M015_J015; manne; 15; 15; False; nan; 911.0; nan; 3375; 1801; 1053; 1052; 9900; optimal; 0.09087991714477539; False;  
+ID003_M015_J015; minla_fav; 15; 15; False; nan; 911.0; nan; 30585; 22276; 15785; 3076; 172770; optimal; 1.4040160179138184; False;  
