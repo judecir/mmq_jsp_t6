@@ -407,7 +407,7 @@ def jsp_minla_rest_disj_mais_proc(modelo, x, z, cmax, y, s, Problema):
                     modelo.add_constraint(x[i, k] >= x[i, j] + tempo[i, j] - P*(1-z[i,j, k]) + 
                                                     sum(s[i,u,j,k]*tempo[i, u] for u in Jobs if u!= k and u!=j))
                     """
-                    modelo.add_constraint(x[i, j] >= x[i, k] + tempo[i, k] - P*z[i, j, k] 
+                    modelo.add_constraint(x[i, k] >= x[i, j] + tempo[i, j] - P*(1-z[i,j, k]) 
                                                   # para u<j<k
                                                   + sum(z[i,u,k]*tempo[i, u] for u in Jobs if u<j)
                                                   - sum(s[i,u,j,k]*tempo[i, u] for u in Jobs if u<j)
@@ -417,7 +417,7 @@ def jsp_minla_rest_disj_mais_proc(modelo, x, z, cmax, y, s, Problema):
                                                   + sum(z[i,j,u]*tempo[i, u] for u in Jobs if k<u)
                                                   - sum(s[i,u,j,k]*tempo[i, u] for u in Jobs if k<u))
                                                   
-                    modelo.add_constraint(x[i, k] >= x[i, j] + tempo[i, j] - P*(1-z[i,j, k]) 
+                    modelo.add_constraint(x[i, j] >= x[i, k] + tempo[i, k] - P*z[i, j, k] 
                                                   # para u<j<k        
                                                   + sum(z[i,u,j]*tempo[i, u] for u in Jobs if u<j)
                                                   - sum(s[i,u,j,k]*tempo[i, u] for u in Jobs if u<j)
